@@ -1,0 +1,28 @@
+{
+  "name": "js-extractor",
+  "main": "./lib/js-extractor.js",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {},
+  "repository": "https://github.com/atom/react-extract-component",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "scripts": {
+    "precommit": "npm test",
+    "pretest": "node_modules/.bin/standard",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "esprima-undeclared-identifiers": "^0.1.0",
+    "js-beautify": "^1.6.2",
+    "js-module-formats": "^0.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "standard": "^6.0.8"
+  }
+}

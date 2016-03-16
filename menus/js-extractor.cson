@@ -1,0 +1,25 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Extract function'
+      'command': 'js-extractor:extract'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'js-extractor'
+      'submenu': [
+        {
+          'label': 'extract function'
+          'command': 'js-extractor:extract'
+        }, {
+          'label': 'extract function to file'
+          'command': 'js-extractor:extract function to file'
+        }
+      ]
+    ]
+  }
+]
