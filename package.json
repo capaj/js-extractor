@@ -16,7 +16,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "esprima-undeclared-identifiers": "^0.1.0",
+    "esprima-undeclared-identifiers": "^0.2.0",
     "js-beautify": "^1.6.2",
     "js-module-formats": "^0.1.2"
   },

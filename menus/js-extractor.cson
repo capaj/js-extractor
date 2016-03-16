@@ -3,7 +3,7 @@
   'atom-text-editor': [
     {
       'label': 'Extract function'
-      'command': 'js-extractor:extract'
+      'command': 'js-extractor:extract function'
     }
   ]
 'menu': [
@@ -14,7 +14,7 @@
       'submenu': [
         {
           'label': 'extract function'
-          'command': 'js-extractor:extract'
+          'command': 'js-extractor:extract function'
         }, {
           'label': 'extract function to file'
           'command': 'js-extractor:extract function to file'
